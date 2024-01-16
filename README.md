@@ -8,7 +8,8 @@ to them. The customer should be allocated a parking slot which is nearest to the
 - We interact with the system via a simple set of commands which produce a specific output. Please take a look at the example below, which includes all the commands you need to support - they're self-explanatory.
 
 ## Command
-- `create [size]` - Creates parking lot of size n
-- `park [car-number]` - Parks a car (time start counting when customer park)
+- `create [size]` -> Creates parking lot of size n
+- `park [car-number]` -> Parks a car (time start counting when customer park)
 - `leave [car-number] ` -> Removes (unpark) a car and charges based on the number of hours the car is parked
 - `status [car-number]` -> Prints status of the parking lot (slot, parking time, charges based on the number of hours the car is parked)
+- `exit` -> Exit program
